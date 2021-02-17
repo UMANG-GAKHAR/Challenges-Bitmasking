@@ -36,7 +36,5 @@ int main() {
     
     ll maxArea = deltaX * deltaY ;
     cout << maxArea ;
-
-
     return 0;
 }
