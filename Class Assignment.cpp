@@ -21,6 +21,5 @@ int main()
         cin >> n;
         cout << "#" << k++ << " : " << fib(n+2) << endl;
     }
-
     return 0;
 }
