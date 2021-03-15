@@ -13,7 +13,6 @@ int main ()
 //Minimum number of people required
     n = sqrt (2*365*a);
     }
-//If given probability is one
     else
     {
         n = 365;
