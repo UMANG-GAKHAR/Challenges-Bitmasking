@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int dp[100][500];
 
 int NumberOfWays(vector<int> &coins,int N,int pos){
