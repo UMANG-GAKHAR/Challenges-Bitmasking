@@ -1,6 +1,5 @@
 #include<bits/stdc++.h>
 using namespace std;
-
 int maxSquare(vector<vector<int>> &a){
     int n=a.size(),m=a[0].size();
     int dp[n][m];
