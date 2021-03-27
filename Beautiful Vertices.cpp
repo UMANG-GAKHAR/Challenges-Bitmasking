@@ -7,7 +7,6 @@ long long happy=0;
 vector<int>master;
 set<int>s;
 int node,edge;
-
 void dfs(int x)
 {
     visited[x]=-1;
