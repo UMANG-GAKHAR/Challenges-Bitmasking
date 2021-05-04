@@ -1,11 +1,9 @@
 #include<bits/stdc++.h> 
 using namespace std; 
-
 int lcsOf3( string X, string Y, string Z, int m, 
                             int n, int o) 
 { 
     int L[m+1][n+1][o+1]; 
-
     for (int i=0; i<=m; i++) 
     { 
         for (int j=0; j<=n; j++) 
@@ -25,10 +23,8 @@ int lcsOf3( string X, string Y, string Z, int m,
             } 
         } 
     } 
-
     return L[m][n][o]; 
 } 
-
 int main() 
 { 
     string a,b,c;
