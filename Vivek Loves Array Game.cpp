@@ -20,10 +20,8 @@ int maxScore(vector<int> &a,int l,int r){
         }
     }
     if(!flag)return 0;
-
     return 1+max(maxScore(a,l,ind),maxScore(a,ind+1,r));
 }
-
 signed main() {
     ios_base::sync_with_stdio(NULL);
     cin.tie(0);cout.tie(0);
