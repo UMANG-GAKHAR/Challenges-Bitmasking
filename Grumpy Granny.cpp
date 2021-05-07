@@ -1,7 +1,6 @@
 #include<iostream>
 #define MOD 1000000007LL
 using namespace std;
-
 int main()
 {
     int T;  cin>>T;
