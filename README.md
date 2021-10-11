@@ -1,2 +1,2 @@
-# Competitive programming-Coding Blocks
+# Competitive Programming-Coding Blocks
 ## Challenges-Bitmasking
